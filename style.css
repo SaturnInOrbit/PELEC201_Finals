@@ -2,7 +2,6 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 10;
 }
 
 body
@@ -40,5 +39,29 @@ body
 
 .logo {
     padding: 0px 20px;
-    width: 60px; /* adjust logo size */
+    width: 90px; /* adjust logo size */
+    border-radius: 100%;
+}
+#headingHome{
+    width: 260px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+#paraHome{
+    line-height: 30px;
+    width: 350px;
+}
+.buttonHome{
+    border-radius: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: white;
+    background-color: #069106;
+    border: none;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
 }
