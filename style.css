@@ -1,0 +1,43 @@
+/* Internal CSS */
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: sticky; /* sticky navbar */
+    top: 0;
+    background-color: #90ee90; /* navbar background color */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between; /* logo left, menu right */
+    align-items: center;
+    border-bottom: 2px solid #ffffff; /* optional border */
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu div {
+    margin-left: 20px; /* spacing between menu items */
+    color: #ffffff; /* menu text color white for contrast */
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.navbar .menu div:hover {
+    color: #a8d5a2; /* hover effect */
+}
+
+.logo {
+    width: 50px; /* adjust logo size */
+    height: 50px;
+}
